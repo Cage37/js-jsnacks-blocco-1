@@ -1,15 +1,33 @@
-// L’utente inserisce due parole in successione, con due prompt.
-// Il software stampa prima la parola più corta, poi la parola più lunga.
+// // L’utente inserisce due parole in successione, con due prompt.
+// // Il software stampa prima la parola più corta, poi la parola più lunga.
 
-var word = prompt("Inserisci una parola");
-var word_ = prompt("Inserisci una parola");
-var wordm = word.length;
-var wordf = word_.length;
+// var word_one = prompt("Inserisci una parola");
+// var word_two = prompt("Inserisci una parola");
+// var wordmax = word.length;
+// var wordmin = word_.length;
  
-if (wordm > wordf) {
-    console.log(word_);
-    console.log(word);
-} else if (wordm < wordf) {
-    console.log(word);
-    console.log(word_);
-}
+// if (wordmax > wordmin) {
+//     console.log(word_one);
+//     console.log(word_two);
+// } else if (wordmax < wordmin) {
+//     console.log(word_two);
+//     console.log(word_one);
+// }
+
+
+// Il software deve chiedere per 10 volte all’utente di inserire un numero.
+// Il programma stampa la somma di tutti i numeri inseriti
+
+var number1 = Number(prompt("Inserisci un numero"));
+var number2 = Number(prompt("Inserisci un numero"));
+var number3 = Number(prompt("Inserisci un numero"));
+var number4 = Number(prompt("Inserisci un numero"));
+var number5 = Number(prompt("Inserisci un numero"));
+var number6 = Number(prompt("Inserisci un numero"));
+var number7 = Number(prompt("Inserisci un numero"));
+var number8 = Number(prompt("Inserisci un numero"));
+var number9 = Number(prompt("Inserisci un numero"));
+var number10 = Number(prompt("Inserisci un numero"));
+var somma = (number1 + number2 + number3 + number4 + number5 + number6 + number7 + number8 + number9 + number10);
+
+console.log(somma);
