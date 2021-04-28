@@ -52,16 +52,44 @@
 // Chiedi per 6 volte all’utente di inserire un numero,
 // se è dispari inseriscilo nell’array. 
 
-var numberOdd = [];
+// var numberOdd = [];
 
-for (var i = 1; i <= 6; i++) {
-    var user = prompt("Inserisci un numero");
-    if (user % 2 == 0) {
-        console.log(user + " è pari");
-    } else {
-        numberOdd.push(user);
-    }
-} 
+// for (var i = 1; i <= 6; i++) {
+//     var user = prompt("Inserisci un numero");
+//     if (user % 2 == 0) {
+//         console.log(user + " è pari");
+//     } else {
+//         numberOdd.push(user);
+//     }
+// } 
 
-console.log(numberOdd);
+// console.log(numberOdd);
+
+// Stampa il cubo dei primi N numeri,
+// dove N è un numero indicato dall’utente.
+
+
+// var numbUser = Number(prompt("Quale numero vuoi scegliere?"));
+
+// for (var i = 0; i <= numbUser; i++) { 
+//     console.log(Math.pow(i, 3));
+// }
+
+// Chiedi un numero di 4 cifre all’utente
+// e calcola la somma di tutte le cifre che compongono il numero.
+
+var numbUser = prompt("Scegli un numero di 4 cifre");
+var sum = 0;
+
+
+for (var i = 0; i < numbUser.length; i++){
+    console.log(numbUser[i]);
+    var numb = Number(numbUser[i]);
+    sum = sum + numb;
+}
+
+console.log(sum);
+
+
+
 
