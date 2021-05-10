@@ -78,17 +78,17 @@
 // Chiedi un numero di 4 cifre all’utente
 // e calcola la somma di tutte le cifre che compongono il numero.
 
-var numbUser = prompt("Scegli un numero di 4 cifre");
-var sum = 0;
+// var numbUser = prompt("Scegli un numero di 4 cifre");
+// var sum = 0;
 
 
-for (var i = 0; i < numbUser.length; i++){
-    console.log(numbUser[i]);
-    var numb = Number(numbUser[i]);
-    sum = sum + numb;
-}
+// for (var i = 0; i < numbUser.length; i++){
+//     console.log(numbUser[i]);
+//     var numb = Number(numbUser[i]);
+//     sum = sum + numb;
+// }
 
-console.log(sum);
+// console.log(sum);
 
 
 
